@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "Classes", "loc/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
-
+  spec.vendored_frameworks = 'loc/loc.framework'
   # spec.public_header_files = "Classes/**/*.h"
 
 
