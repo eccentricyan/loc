@@ -3,3 +3,4 @@ loc.framework/_CodeSignature
 loc
 build
 loc.xcodeproj
+.DS_Store

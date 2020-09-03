@@ -1,0 +1,11 @@
+framework module loc {
+  umbrella header "loc.h"
+
+  export *
+  module * { export * }
+}
+
+module loc.Swift {
+    header "loc-Swift.h"
+    requires objc
+}
